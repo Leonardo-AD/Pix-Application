@@ -1,0 +1,152 @@
+:root{
+    --background-color: #1D2549;
+    --hover-efect-color: #384dac;
+    --principal-highlight-color: #BDF347;
+    --second-highlight-color: #6FB6C6;
+    --third-highlight-color: #7DCA94;
+    --text-color: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 90vh;
+    background-color: var(--background-color);
+}
+
+/* Section sets */
+
+.content{
+    margin: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* image, name, verified icon and random key */
+
+.copy-key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-key #profile-photo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    box-shadow: 1px 1px 3px black;
+}
+
+.copy-key span{
+    color: var(--text-color);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.verification .material-icons{
+    color: var(--principal-highlight-color);
+    font-size: 1rem;
+}
+
+#pix-key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 6.7rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--principal-highlight-color);
+    color: var(--background-color);
+    line-height: 1;
+    font: inherit;
+    transition: 0.30s;
+}
+
+/* Button efects*/
+
+button:hover, button:focus{
+    border-color: var(--principal-highlight-color);
+    color: var(--hover-efect-color);
+}
+
+.effect:hover, .effect:focus{
+    box-shadow: 0 0.5rem 0.5rem -0.4rem #BDF347;
+    transform: translateY(-0.25rem);
+}
+
+#pix-key input{
+    border: 1px solid var(--principal-highlight-color);
+    background-color: var(--background-color);
+    padding: 0.3rem;
+    width: 20rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* QR-Code images and texts*/
+
+.qr-codes{
+    display: flex;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 3rem;
+}
+
+.items img{
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 0 1rem;
+}
+
+.qrcode-info{
+    border: 1px solid var(--principal-highlight-color);
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: center;
+    min-width: 16rem;
+}
+
+.qrcode-info span{
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.3rem;
+}
+
+.qrcode-info #name{
+    font-weight: 600;
+}
+
+.qrcode-info #bank{
+    font-weight: 200;
+}

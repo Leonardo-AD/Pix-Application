@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Alves - GitHub: Leonardo-AD">
+    <meta name="description" content="One page to my all PIX keys and QR-Code">
+    <link rel="shortcut icon" href="./images/logo-pix-icone.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Meu PIX</title>
+</head>
+<body>
+    <section class="content">
+        <div class="copy-key">
+            <img id="profile-photo" src="https://conteudo.imguol.com.br/c/entretenimento/8d/2017/11/09/terry-crews-em-cena-de-todo-mundo-odeia-o-chris-1510241395164_v2_450x450.jpg" 
+            onError="this.onerror=null;this.src='./images/profileWithoutPhoto.png';" alt="Imagem do perfil">
+            <div class="verification">
+                <span>Leonardo Alves</span> <span class="material-icons">verified</span>
+            </div>
+
+            <div id="pix-key">
+                <input type="text" name="key-content" id="key-content" value="7fexy232-2324-49hg-9c60-7jsdyelco8e50" readonly>
+                <button class="effect" id="button-copy" onclick="copyKey()">Copiar chave</button>   
+            </div>
+        </div>
+    </section>
+
+    <section class="qr-codes"> 
+        <div class="items">
+            <img id="qr-code-image" src="./images/pix1.png" alt="QR code do Nubank">
+
+            <div class="qrcode-info">
+                <span id="name">Leonardo Alves Dias</span>
+                <span id="bank">Banco: Nu Pagamentos S.A.</span>
+            </div>
+        </div>
+
+        <div class="items">
+            <img id="qr-code-image" src="./images/pix2.png" alt="QR code do Nubank">
+
+            <div class="qrcode-info">
+                <span id="name">Leonardo Alves Dias</span>
+                <span id="bank">Banco: Bradesco S.A.</span>
+            </div>
+        </div>
+
+        <div class="items">
+            <img id="qr-code-image" src="./images/pix3.png" alt="QR code do Nubank">
+
+            <div class="qrcode-info">
+                <span id="name">Leonardo Alves Dias</span>
+                <span id="bank">Banco: C6 S.A.</span>
+            </div>
+        </div>
+
+        <div class="items">
+            <img id="qr-code-image" src="./images/pix4.png" alt="QR code do Nubank">
+
+            <div class="qrcode-info">
+                <span id="name">Leonardo Alves Dias</span>
+                <span id="bank">Banco: Inter</span>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
