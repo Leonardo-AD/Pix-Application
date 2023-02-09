@@ -19,7 +19,7 @@ So this problem is solved, just register your random key and if you want the QR'
 
 <p>The page after copying the key to the clipboard</p>
 
-<img src="./images/afterCopyKey.png" width="700"/>
+<img src="./images/afterCopyKey.png" width="800"/>
 
 <hr>
 
