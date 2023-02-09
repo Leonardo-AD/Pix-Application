@@ -13,19 +13,19 @@ So this problem is solved, just register your random key and if you want the QR'
 
 <p>The page before copying the key to the clipboard</p>
 
-<img src="./images/" width="500"/> 
+<img src="./images/beforeCopyKey.png" width="800"/> 
 
 <hr>
 
 <p>The page after copying the key to the clipboard</p>
 
-<img src="./images/" width="500"/>
+<img src="./images/afterCopyKey.png" width="700"/>
 
 <hr>
 
 <p>On mobile screens</p>
 
-<img src="./images/" width="370"/> 
+<img src="./images/mobileBeforeCopyKey.png" width="370"/> <img src="./images/mobileAfterCopyKey.png" width="370"/> 
 
 ## Technologies
 
