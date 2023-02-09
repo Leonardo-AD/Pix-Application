@@ -2,7 +2,7 @@
 
 <p>This simple application brings me practicality to use the keys of my PIX. 
 Do you have some accounts at other banks like I do and want a place to have all these keys without having to go into every bank app? 
-So this problem is solved, just register your random key and if you want the QR's-Codes as well. In this app I am using HTML, CSS, JavaScript.</p>
+So this problem is solved, just register your random key and if you want the QR's-Codes as well. In this app I am using HTML, CSS and JavaScript.</p>
 
 ## Features Developed
 
